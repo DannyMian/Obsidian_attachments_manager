@@ -27,8 +27,8 @@ int main() {
     GUI gui;
     //    "C:\Programs\CppProjects\Learning"
         // 通过 GUI 获取文件路径
-    //    std::string filepath = gui.get_filepath();
-    std::string filepath = R"(C:\Programs\CppProjects\Learning)";
+    std::string filepath = gui.get_filepath();
+    //std::string filepath = R"(C:\Programs\CppProjects\Learning)";
 
     std::vector<std::string> md_filepaths = file_handler.get_markdown_files(filepath);
 

@@ -7,7 +7,7 @@
 std::string GUI::get_filepath() {
     std::string filepath;
     std::cout << "=== File Path Input ===" << std::endl;
-    std::cout << "Please enter the file path: ";
+    std::cout << "Please enter the obsidian project path: ";
     std::getline(std::cin, filepath);
     std::cout << "You entered: " << filepath << std::endl;
     return filepath;
